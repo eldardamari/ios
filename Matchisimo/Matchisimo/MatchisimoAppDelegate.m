@@ -13,6 +13,8 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    // set background image metal.jpg to all screens
+    self.window.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"metal.png"]];
     return YES;
 }
 							

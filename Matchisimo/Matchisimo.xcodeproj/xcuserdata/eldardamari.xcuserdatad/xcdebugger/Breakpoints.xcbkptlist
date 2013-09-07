@@ -8,11 +8,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "Matchisimo/Model/Card.m"
-         timestampString = "399853864.133874"
+         timestampString = "400275935.743726"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "40"
-         endingLineNumber = "40"
+         startingLineNumber = "45"
+         endingLineNumber = "45"
          landmarkName = "@implementation Card"
          landmarkType = "3">
       </FileBreakpoint>
@@ -27,6 +27,19 @@
          startingLineNumber = "11"
          endingLineNumber = "11"
          landmarkName = "@interface Card()"
+         landmarkType = "2">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "Yes"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "Matchisimo/Model/Card.h"
+         timestampString = "400275935.743726"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "26"
+         endingLineNumber = "26"
+         landmarkName = "@interface Card"
          landmarkType = "2">
       </FileBreakpoint>
    </FileBreakpoints>

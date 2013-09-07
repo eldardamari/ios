@@ -9,15 +9,15 @@
             <objects>
                 <viewController id="2" customClass="MatchisimoViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="3">
-                        <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V9S-B8-Zxk">
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="190" id="82G-2V-9Vd"/>
-                                    <constraint firstAttribute="height" constant="277" id="TFd-To-3AB"/>
+                                    <constraint firstAttribute="height" constant="71" id="j21-fW-Bj7"/>
+                                    <constraint firstAttribute="width" constant="56" id="pGE-gH-yLu"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="40"/>
+                                <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="24"/>
                                 <state key="normal" title="">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -26,48 +26,358 @@
                                     <action selector="flipCard:" destination="2" eventType="touchUpInside" id="QLD-x1-ZOn"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ce1-R8-G4S">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="56" id="NJA-bZ-giX"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="24"/>
+                                <state key="normal" title="">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="flipCard:" destination="2" eventType="touchUpInside" id="isX-cj-qik"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="headTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RmP-9O-N4D">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="56" id="8d6-DN-h2p"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="24"/>
+                                <state key="normal" title="">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="flipCard:" destination="2" eventType="touchUpInside" id="Dxr-V6-Rwk"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="17F-Rc-jbc">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="56" id="Wc7-Nk-kcH"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="24"/>
+                                <state key="normal" title="">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="flipCard:" destination="2" eventType="touchUpInside" id="TdA-XN-xpa"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8uc-ra-VnG">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="71" id="IP2-Fr-L4l"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="24"/>
+                                <state key="normal" title="">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="flipCard:" destination="2" eventType="touchUpInside" id="iIw-cw-0QZ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FE5-Ag-KEH">
+                                <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="24"/>
+                                <state key="normal" title="">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="flipCard:" destination="2" eventType="touchUpInside" id="Id3-zj-Ynp"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9OA-lu-NfN">
+                                <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="24"/>
+                                <state key="normal" title="">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="flipCard:" destination="2" eventType="touchUpInside" id="i4P-k0-lfE"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="heT-X4-kM0">
+                                <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="24"/>
+                                <state key="normal" title="">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="flipCard:" destination="2" eventType="touchUpInside" id="QNS-gA-3uj"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2xu-Tr-DhQ">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="71" id="RSl-Fy-zH8"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="24"/>
+                                <state key="normal" title="">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="flipCard:" destination="2" eventType="touchUpInside" id="fpr-KW-xN2"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5JQ-hF-pW6">
+                                <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="24"/>
+                                <state key="normal" title="">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="flipCard:" destination="2" eventType="touchUpInside" id="FsS-59-y21"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2JM-Mw-moL">
+                                <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="24"/>
+                                <state key="normal" title="">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="flipCard:" destination="2" eventType="touchUpInside" id="JVy-EJ-UFB"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PCe-j9-WYd">
+                                <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="24"/>
+                                <state key="normal" title="">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="flipCard:" destination="2" eventType="touchUpInside" id="hbn-EA-ukX"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cFR-wa-Rlh">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="71" id="vOp-S3-yrv"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="24"/>
+                                <state key="normal" title="">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="flipCard:" destination="2" eventType="touchUpInside" id="EJ0-f2-lly"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PuD-p6-Nkn">
+                                <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="24"/>
+                                <state key="normal" title="">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="flipCard:" destination="2" eventType="touchUpInside" id="O4C-0J-nAi"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hsC-ep-wtf">
+                                <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="24"/>
+                                <state key="normal" title="">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="flipCard:" destination="2" eventType="touchUpInside" id="3pZ-hC-6SY"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E35-e0-P4a">
+                                <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="24"/>
+                                <state key="normal" title="">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="flipCard:" destination="2" eventType="touchUpInside" id="bZ3-Zb-Vcz"/>
+                                </connections>
+                            </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Flips: 0" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Jnv-mh-bgJ">
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="97" id="qxW-o2-1L5"/>
+                                    <constraint firstAttribute="height" constant="30" id="NZO-5D-9y5"/>
+                                    <constraint firstAttribute="width" constant="87" id="vEg-z1-1aJ"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="The ∞ Deck" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Edy-gN-5tc">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Score: 0" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="CuB-e0-FtA">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="87" id="T3k-J4-3XH"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="iMatch" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Edy-gN-5tc">
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="42" id="DX3-R4-0aq"/>
                                     <constraint firstAttribute="width" constant="235" id="sMr-2b-tOv"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
-                                <color key="textColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="31"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <size key="shadowOffset" width="2" height="-1"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hnS-hk-oem">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="33" id="Kmp-dN-Xsi"/>
+                                    <constraint firstAttribute="width" constant="262" id="S7T-om-7u0"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cGz-GM-aOw">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="42" id="OEN-so-Nbz"/>
+                                    <constraint firstAttribute="width" constant="73" id="aG2-XG-PpF"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Deal">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="dealCardsButton:" destination="2" eventType="touchUpInside" id="4Ic-6k-Gkc"/>
+                                </connections>
+                            </button>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="bordered" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="AWI-5Q-bLa">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="98" id="BfH-RU-Blf"/>
+                                </constraints>
+                                <segments>
+                                    <segment title="2"/>
+                                    <segment title="3"/>
+                                </segments>
+                                <connections>
+                                    <action selector="gameMode:" destination="2" eventType="valueChanged" id="Vtl-8D-m5G"/>
+                                </connections>
+                            </segmentedControl>
                         </subviews>
-                        <color key="backgroundColor" red="0.18893962443388521" green="0.2452691718970236" blue="0.50196081399917603" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="Edy-gN-5tc" firstAttribute="top" secondItem="3" secondAttribute="top" constant="38" id="6Bf-mV-aiv"/>
-                            <constraint firstItem="Edy-gN-5tc" firstAttribute="centerX" secondItem="V9S-B8-Zxk" secondAttribute="centerX" type="default" id="Uem-ZV-WF0"/>
-                            <constraint firstItem="V9S-B8-Zxk" firstAttribute="centerX" secondItem="3" secondAttribute="centerX" type="default" id="dlQ-NV-gbO"/>
-                            <constraint firstItem="Jnv-mh-bgJ" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="15" id="gzq-Qg-bvR"/>
+                            <constraint firstItem="9OA-lu-NfN" firstAttribute="leading" secondItem="2JM-Mw-moL" secondAttribute="leading" type="default" id="0hl-XN-XAZ"/>
+                            <constraint firstItem="5JQ-hF-pW6" firstAttribute="baseline" secondItem="2xu-Tr-DhQ" secondAttribute="baseline" type="default" id="1ij-G6-ed1"/>
+                            <constraint firstItem="RmP-9O-N4D" firstAttribute="trailing" secondItem="9OA-lu-NfN" secondAttribute="trailing" type="default" id="3sS-Di-8SE"/>
+                            <constraint firstItem="heT-X4-kM0" firstAttribute="leading" secondItem="17F-Rc-jbc" secondAttribute="leading" type="default" id="3v8-xM-ExK"/>
+                            <constraint firstItem="2JM-Mw-moL" firstAttribute="top" secondItem="9OA-lu-NfN" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="4Z8-p8-imn"/>
+                            <constraint firstItem="hsC-ep-wtf" firstAttribute="baseline" secondItem="PuD-p6-Nkn" secondAttribute="baseline" type="default" id="5Di-gi-Tgq"/>
+                            <constraint firstItem="cGz-GM-aOw" firstAttribute="centerX" secondItem="hnS-hk-oem" secondAttribute="centerX" type="default" id="6Lf-L7-cLU"/>
+                            <constraint firstAttribute="bottom" secondItem="AWI-5Q-bLa" secondAttribute="bottom" constant="15" id="6r5-Lz-cBg"/>
+                            <constraint firstItem="5JQ-hF-pW6" firstAttribute="trailing" secondItem="FE5-Ag-KEH" secondAttribute="trailing" type="default" id="77E-83-Rar"/>
+                            <constraint firstItem="2xu-Tr-DhQ" firstAttribute="leading" secondItem="8uc-ra-VnG" secondAttribute="leading" type="default" id="77q-ir-ZwR"/>
+                            <constraint firstItem="17F-Rc-jbc" firstAttribute="baseline" secondItem="RmP-9O-N4D" secondAttribute="baseline" type="default" id="7G9-Rb-IU1"/>
+                            <constraint firstItem="8uc-ra-VnG" firstAttribute="leading" secondItem="V9S-B8-Zxk" secondAttribute="leading" type="default" id="7u0-Cn-oHC"/>
+                            <constraint firstItem="cFR-wa-Rlh" firstAttribute="leading" secondItem="2xu-Tr-DhQ" secondAttribute="leading" type="default" id="8Og-Wt-fvm"/>
+                            <constraint firstItem="cFR-wa-Rlh" firstAttribute="baseline" secondItem="hsC-ep-wtf" secondAttribute="baseline" type="default" id="9Uz-bF-i2s"/>
+                            <constraint firstItem="17F-Rc-jbc" firstAttribute="top" secondItem="RmP-9O-N4D" secondAttribute="top" type="default" id="9hM-Pf-dWy"/>
+                            <constraint firstItem="Ce1-R8-G4S" firstAttribute="top" secondItem="RmP-9O-N4D" secondAttribute="top" type="default" id="Bab-T0-bRz"/>
+                            <constraint firstItem="Ce1-R8-G4S" firstAttribute="baseline" secondItem="RmP-9O-N4D" secondAttribute="baseline" type="default" id="BhJ-9q-tcJ"/>
+                            <constraint firstItem="9OA-lu-NfN" firstAttribute="baseline" secondItem="FE5-Ag-KEH" secondAttribute="baseline" type="default" id="BiK-XF-LdP"/>
+                            <constraint firstItem="cGz-GM-aOw" firstAttribute="centerX" secondItem="3" secondAttribute="centerX" type="default" id="BpM-rq-Frh"/>
+                            <constraint firstItem="E35-e0-P4a" firstAttribute="leading" secondItem="PCe-j9-WYd" secondAttribute="leading" type="default" id="Byu-O9-WCo"/>
+                            <constraint firstItem="FE5-Ag-KEH" firstAttribute="top" secondItem="Ce1-R8-G4S" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="DwF-OV-r7V"/>
+                            <constraint firstItem="V9S-B8-Zxk" firstAttribute="trailing" secondItem="8uc-ra-VnG" secondAttribute="trailing" type="default" id="GM1-7o-s3x"/>
+                            <constraint firstItem="PCe-j9-WYd" firstAttribute="trailing" secondItem="E35-e0-P4a" secondAttribute="trailing" type="default" id="Hoz-nn-2vY"/>
+                            <constraint firstItem="RmP-9O-N4D" firstAttribute="leading" secondItem="9OA-lu-NfN" secondAttribute="leading" type="default" id="Ji9-ey-46b"/>
+                            <constraint firstItem="PuD-p6-Nkn" firstAttribute="leading" secondItem="5JQ-hF-pW6" secondAttribute="leading" type="default" id="Ljz-Ku-sUf"/>
+                            <constraint firstItem="Ce1-R8-G4S" firstAttribute="trailing" secondItem="FE5-Ag-KEH" secondAttribute="trailing" type="default" id="P7O-v5-WkA"/>
+                            <constraint firstItem="Edy-gN-5tc" firstAttribute="centerX" secondItem="hnS-hk-oem" secondAttribute="centerX" type="default" id="Q4C-Js-B6X"/>
+                            <constraint firstItem="hnS-hk-oem" firstAttribute="leading" secondItem="cFR-wa-Rlh" secondAttribute="leading" type="default" id="RJf-5M-0oX"/>
+                            <constraint firstItem="2JM-Mw-moL" firstAttribute="baseline" secondItem="5JQ-hF-pW6" secondAttribute="baseline" type="default" id="SjX-Yg-YQC"/>
+                            <constraint firstItem="V9S-B8-Zxk" firstAttribute="top" secondItem="3" secondAttribute="top" constant="40" id="SqE-ri-FTy"/>
+                            <constraint firstAttribute="trailing" secondItem="RmP-9O-N4D" secondAttribute="trailing" constant="97" id="VV0-Ir-WYj"/>
+                            <constraint firstItem="Jnv-mh-bgJ" firstAttribute="baseline" secondItem="cGz-GM-aOw" secondAttribute="baseline" type="default" id="VYn-ij-wf5"/>
+                            <constraint firstItem="PCe-j9-WYd" firstAttribute="top" secondItem="heT-X4-kM0" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="VZp-B7-PvP"/>
+                            <constraint firstItem="9OA-lu-NfN" firstAttribute="baseline" secondItem="heT-X4-kM0" secondAttribute="baseline" type="default" id="VxW-vK-phO"/>
+                            <constraint firstItem="V9S-B8-Zxk" firstAttribute="baseline" secondItem="Ce1-R8-G4S" secondAttribute="baseline" type="default" id="WLs-10-fZr"/>
+                            <constraint firstItem="V9S-B8-Zxk" firstAttribute="top" secondItem="Ce1-R8-G4S" secondAttribute="top" type="default" id="WuL-VO-fFf"/>
+                            <constraint firstItem="hsC-ep-wtf" firstAttribute="baseline" secondItem="E35-e0-P4a" secondAttribute="baseline" type="default" id="XPZ-Oz-PPf"/>
+                            <constraint firstItem="5JQ-hF-pW6" firstAttribute="top" secondItem="FE5-Ag-KEH" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="Xs5-Pg-AIw"/>
+                            <constraint firstAttribute="bottom" secondItem="CuB-e0-FtA" secondAttribute="bottom" constant="20" symbolic="YES" type="default" id="Xus-hI-p6I"/>
+                            <constraint firstItem="hsC-ep-wtf" firstAttribute="top" secondItem="2JM-Mw-moL" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="Xx3-hC-qQ5"/>
+                            <constraint firstItem="hnS-hk-oem" firstAttribute="top" secondItem="cFR-wa-Rlh" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="YWr-7a-fb4"/>
+                            <constraint firstItem="2JM-Mw-moL" firstAttribute="trailing" secondItem="hsC-ep-wtf" secondAttribute="trailing" type="default" id="YbM-WZ-ZTT"/>
+                            <constraint firstItem="hnS-hk-oem" firstAttribute="top" secondItem="E35-e0-P4a" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="ZAT-0I-pLQ"/>
+                            <constraint firstItem="cFR-wa-Rlh" firstAttribute="baseline" secondItem="PuD-p6-Nkn" secondAttribute="baseline" type="default" id="a1j-rb-krp"/>
+                            <constraint firstItem="5JQ-hF-pW6" firstAttribute="leading" secondItem="FE5-Ag-KEH" secondAttribute="leading" type="default" id="aQf-hq-KdZ"/>
+                            <constraint firstItem="PuD-p6-Nkn" firstAttribute="baseline" secondItem="E35-e0-P4a" secondAttribute="baseline" type="default" id="c1B-Bo-oPe"/>
+                            <constraint firstAttribute="trailing" secondItem="CuB-e0-FtA" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="cXW-Wr-a6D"/>
+                            <constraint firstItem="AWI-5Q-bLa" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="9" id="dd4-7U-LL7"/>
+                            <constraint firstItem="Ce1-R8-G4S" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="97" id="ddK-PZ-axf"/>
+                            <constraint firstItem="heT-X4-kM0" firstAttribute="trailing" secondItem="PCe-j9-WYd" secondAttribute="trailing" type="default" id="eiX-Ts-NVe"/>
+                            <constraint firstItem="AWI-5Q-bLa" firstAttribute="baseline" secondItem="Jnv-mh-bgJ" secondAttribute="baseline" type="default" id="f7w-PI-FBf"/>
+                            <constraint firstItem="AWI-5Q-bLa" firstAttribute="top" secondItem="cGz-GM-aOw" secondAttribute="top" type="default" id="fzn-z1-yIK"/>
+                            <constraint firstItem="E35-e0-P4a" firstAttribute="baseline" secondItem="cFR-wa-Rlh" secondAttribute="baseline" type="default" id="hRZ-EY-E66"/>
+                            <constraint firstItem="9OA-lu-NfN" firstAttribute="trailing" secondItem="2JM-Mw-moL" secondAttribute="trailing" type="default" id="hef-3q-5Qm"/>
+                            <constraint firstItem="PuD-p6-Nkn" firstAttribute="top" secondItem="5JQ-hF-pW6" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="i25-R0-aac"/>
+                            <constraint firstItem="PCe-j9-WYd" firstAttribute="leading" secondItem="heT-X4-kM0" secondAttribute="leading" type="default" id="i3L-cy-JkO"/>
+                            <constraint firstItem="9OA-lu-NfN" firstAttribute="top" secondItem="RmP-9O-N4D" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="jLw-Ax-1et"/>
+                            <constraint firstItem="cFR-wa-Rlh" firstAttribute="top" secondItem="2xu-Tr-DhQ" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="k3j-fq-iIv"/>
+                            <constraint firstItem="2xu-Tr-DhQ" firstAttribute="trailing" secondItem="8uc-ra-VnG" secondAttribute="trailing" type="default" id="lpH-EU-djn"/>
+                            <constraint firstItem="Edy-gN-5tc" firstAttribute="top" secondItem="3" secondAttribute="top" constant="-8" id="mQt-oz-OIs"/>
+                            <constraint firstItem="FE5-Ag-KEH" firstAttribute="leading" secondItem="Ce1-R8-G4S" secondAttribute="leading" type="default" id="mhn-8M-6CV"/>
+                            <constraint firstItem="8uc-ra-VnG" firstAttribute="baseline" secondItem="FE5-Ag-KEH" secondAttribute="baseline" type="default" id="nNt-la-oBU"/>
                             <constraint firstAttribute="bottom" secondItem="Jnv-mh-bgJ" secondAttribute="bottom" constant="20" symbolic="YES" type="default" id="nvb-BZ-MHB"/>
-                            <constraint firstItem="V9S-B8-Zxk" firstAttribute="top" secondItem="3" secondAttribute="top" constant="111" id="y6E-za-15f"/>
+                            <constraint firstItem="5JQ-hF-pW6" firstAttribute="trailing" secondItem="PuD-p6-Nkn" secondAttribute="trailing" type="default" id="obi-b9-tuI"/>
+                            <constraint firstItem="heT-X4-kM0" firstAttribute="trailing" secondItem="17F-Rc-jbc" secondAttribute="trailing" type="default" id="op2-dV-Hgw"/>
+                            <constraint firstItem="heT-X4-kM0" firstAttribute="top" secondItem="17F-Rc-jbc" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="rM7-jv-2Ge"/>
+                            <constraint firstItem="2xu-Tr-DhQ" firstAttribute="trailing" secondItem="cFR-wa-Rlh" secondAttribute="trailing" type="default" id="sfo-WR-6Pl"/>
+                            <constraint firstItem="hnS-hk-oem" firstAttribute="trailing" secondItem="E35-e0-P4a" secondAttribute="trailing" type="default" id="vJ0-za-JLJ"/>
+                            <constraint firstItem="E35-e0-P4a" firstAttribute="top" secondItem="PCe-j9-WYd" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="vvP-AH-jPU"/>
+                            <constraint firstItem="8uc-ra-VnG" firstAttribute="top" secondItem="V9S-B8-Zxk" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="wBG-qE-CHK"/>
+                            <constraint firstItem="2xu-Tr-DhQ" firstAttribute="top" secondItem="8uc-ra-VnG" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="xHO-ds-uVC"/>
+                            <constraint firstItem="PCe-j9-WYd" firstAttribute="baseline" secondItem="2JM-Mw-moL" secondAttribute="baseline" type="default" id="yGe-WA-rQL"/>
+                            <constraint firstItem="hsC-ep-wtf" firstAttribute="leading" secondItem="2JM-Mw-moL" secondAttribute="leading" type="default" id="z3M-fL-HOq"/>
+                            <constraint firstItem="AWI-5Q-bLa" firstAttribute="centerX" secondItem="Jnv-mh-bgJ" secondAttribute="centerX" type="default" id="zGf-xJ-0P1"/>
+                            <constraint firstItem="hnS-hk-oem" firstAttribute="top" secondItem="hsC-ep-wtf" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="zJ8-ff-ceg"/>
+                            <constraint firstItem="hnS-hk-oem" firstAttribute="top" secondItem="PuD-p6-Nkn" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="zdt-MH-U15"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="flipsCounter" destination="Jnv-mh-bgJ" id="k2G-lv-H4n"/>
+                        <outlet property="gameMode23" destination="AWI-5Q-bLa" id="QVL-2C-JZk"/>
+                        <outlet property="scoreLabel" destination="CuB-e0-FtA" id="8NR-nr-Btl"/>
+                        <outlet property="userMsgLabel" destination="hnS-hk-oem" id="5nm-G3-2hO"/>
+                        <outletCollection property="cardButtons" destination="V9S-B8-Zxk" id="wwU-vX-7nk"/>
+                        <outletCollection property="cardButtons" destination="Ce1-R8-G4S" id="JpC-gD-44u"/>
+                        <outletCollection property="cardButtons" destination="RmP-9O-N4D" id="ZxM-f1-I80"/>
+                        <outletCollection property="cardButtons" destination="17F-Rc-jbc" id="eT5-28-N60"/>
+                        <outletCollection property="cardButtons" destination="8uc-ra-VnG" id="bZq-ZZ-R6U"/>
+                        <outletCollection property="cardButtons" destination="FE5-Ag-KEH" id="KRD-DN-Ckv"/>
+                        <outletCollection property="cardButtons" destination="9OA-lu-NfN" id="eSQ-H8-nM5"/>
+                        <outletCollection property="cardButtons" destination="heT-X4-kM0" id="6MN-uA-sdY"/>
+                        <outletCollection property="cardButtons" destination="2xu-Tr-DhQ" id="03x-4b-6CQ"/>
+                        <outletCollection property="cardButtons" destination="5JQ-hF-pW6" id="dJM-Vi-fo9"/>
+                        <outletCollection property="cardButtons" destination="2JM-Mw-moL" id="nfU-UU-0Zm"/>
+                        <outletCollection property="cardButtons" destination="PCe-j9-WYd" id="qfO-Gz-xNS"/>
+                        <outletCollection property="cardButtons" destination="cFR-wa-Rlh" id="V4m-eD-KyD"/>
+                        <outletCollection property="cardButtons" destination="PuD-p6-Nkn" id="3Nj-kA-snM"/>
+                        <outletCollection property="cardButtons" destination="hsC-ep-wtf" id="AGq-F0-ouA"/>
+                        <outletCollection property="cardButtons" destination="E35-e0-P4a" id="kqg-bP-Ldw"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-12" y="-3"/>
+            <point key="canvasLocation" x="-189" y="-97"/>
         </scene>
     </scenes>
     <classes>
         <class className="MatchisimoViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/MatchisimoViewController.h"/>
             <relationships>
+                <relationship kind="action" name="dealCardsButton:" candidateClass="UIButton"/>
                 <relationship kind="action" name="flipCard:" candidateClass="UIButton"/>
+                <relationship kind="action" name="gameMode:" candidateClass="UISegmentedControl"/>
                 <relationship kind="outlet" name="flipsCounter" candidateClass="UITextField"/>
+                <relationship kind="outlet" name="gameMode23" candidateClass="UISegmentedControl"/>
+                <relationship kind="outlet" name="scoreLabel" candidateClass="UITextField"/>
+                <relationship kind="outlet" name="userMsgLabel" candidateClass="UILabel"/>
+                <relationship kind="outletCollection" name="cardButtons" candidateClass="UIButton"/>
             </relationships>
         </class>
         <class className="NSLayoutConstraint" superclassName="NSObject">
@@ -77,6 +387,6 @@
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
-        <simulatedScreenMetrics key="destination" type="retina4"/>
+        <simulatedScreenMetrics key="destination"/>
     </simulatedMetricsContainer>
 </document>

@@ -28,13 +28,18 @@
 -(void)setUnplayable:(BOOL)unplayable { _unplayable = unplayable; }
 
 // Match between two cards, if equal return 1.
-- (int) match:(Card*)card {
+- (int) match:(NSArray*)cards {
     int score = 0;
     
+    for( Card* card in cards)
     if ([card.contents isEqualToString:self.contents])
         score = 1;
     
     return score;
-    
+}
+- (int) matchCards:(NSArray *)cards
+      withGameMode:(int) gameMode
+{
+    return 0;
 }
 @end

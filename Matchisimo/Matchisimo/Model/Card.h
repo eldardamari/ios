@@ -19,6 +19,8 @@
 // A playable Card?
 @property (nonatomic) BOOL unplayable;
 
-- (int) match:(Card*)card;
+- (int) match:(NSArray *)cards;
+- (int) matchCards:(NSArray *)cards
+      withGameMode:(int) gameMode;
 
 @end

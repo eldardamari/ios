@@ -8,7 +8,33 @@
 
 #import "PlayingCard.h"
 
-@implementation PlayingCard
+@implementation PlayingCard 
+
+
+- (int) matchCards:(NSArray *)cards
+      withGameMode:(int) gameMode{
+
+    int score = 0;
+    if (gameMode == 2){                 // game mode 2 cards match
+        if (cards.count == 1) {
+            PlayingCard* otherCard = [cards lastObject];
+            if(self.rank == otherCard.rank)
+                score = 4;
+            if (self.suit == otherCard.suit)
+                score += 1;
+        }
+    } else {                            // game mode 3 cards match
+        PlayingCard* firstCard   = [cards objectAtIndex:0];
+        PlayingCard* secondeCard = [cards objectAtIndex:1];
+        
+        if ((self.rank == firstCard.rank) && (firstCard.rank == secondeCard.rank))
+            score = 20;
+        if ( (self.suit == firstCard.suit) && (firstCard.suit == secondeCard.suit))
+            score += 10;
+    }
+    return score;
+}
+
 
 -(NSString*)contents {
     NSArray* rankStrings  = [PlayingCard rankStrings];
