@@ -6,7 +6,8 @@ Intro
 * Language: Objective-C
 * iMatch is a card matching game.
 * Game modes: 2 or 3 card to match.
-* This app development is part of Stanford University CS193p "Developing Applications for iOS Winter 2013"
+* This app development is part of Stanford University CS193p 
+  "Developing Applications for iOS Winter 2013" course.
 
 Output
 ------
